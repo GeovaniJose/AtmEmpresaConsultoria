@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF"
+    tools:context="atmempresaconsultoria.cursoandroid.com.atmempresaconsultoria.EmpresaActivity">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/detalhe_empresa"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sobre a empresa"
+        android:textColor="#f97a47"
+        android:textSize="@dimen/titulo_dimen"
+        tools:layout_editor_absoluteX="136dp"
+        tools:layout_editor_absoluteY="39dp" />
+
+    <ScrollView
+        android:layout_width="320dp"
+        android:layout_height="400dp"
+        android:background="#FFEBEBEB"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="95dp">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/padding_padrao"
+            android:text="Lorem ipsum bibendum laoreet sociosqu dui inceptos tempor nostra potenti, nostra iaculis sem varius vitae potenti cras arcu, tristique risus posuere sem vivamus dui duis tempus. non et curabitur vitae fringilla nam ac ad eros quisque aliquam, vitae quam amet sollicitudin conubia hendrerit senectus tempus rutrum, donec auctor platea pharetra tortor lacus sodales eros curabitur. hendrerit aenean aliquam auctor nunc facilisis eros aliquam tristique, conubia dolor augue maecenas facilisis praesent pulvinar gravida, vehicula eu aenean maecenas quisque sit nam. vitae nulla augue venenatis laoreet ad varius malesuada, condimentum nisl quisque lectus maecenas nibh odio, tortor lorem suscipit venenatis at convallis."
+            android:textSize="18sp" />
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>
